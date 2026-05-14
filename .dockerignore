@@ -1,0 +1,10 @@
+.git
+.gitignore
+.vscode
+run.bat
+.dockerignore
+docker-compose.yml
+Dockerfile
+README.md
+node_modules
+npm-debug.log

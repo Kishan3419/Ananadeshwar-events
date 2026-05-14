@@ -1,0 +1,924 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RJ Events - Creating Timeless Memories | Kanpur's Premier Event Decoration</title>
+  <meta name="description"
+    content="RJ Events - Kanpur's premier event decoration service. Professional wedding, birthday, engagement, corporate and religious event decorations. Contact us at +91 9026976760." />
+  <link rel="icon" type="image/x-icon" href="favicon.ico" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <div class="nav-brand">
+        <img src="logo11.png" alt="RJ Events Logo" class="nav-logo-img" />
+        <div class="nav-title-wrap">
+          <span class="nav-title">RJ Events</span>
+          <span class="nav-tagline">Creating Timeless Memories</span>
+        </div>
+      </div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#gallery" class="nav-link">Gallery</a></li>
+        <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+        <!-- Mobile specific button -->
+        <li class="mobile-only-btn">
+          <a href="tel:9026976760" class="btn-book-now">
+            <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path
+                d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.44 2 2 0 0 1 3.6 1.27h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 9a16 16 0 0 0 6.29 6.29l.91-.91a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+            </svg>
+            Book Now
+          </a>
+        </li>
+      </ul>
+      <a href="tel:9026976760" class="btn-book-now" id="bookNowBtn">
+        <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+          <path
+            d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.44 2 2 0 0 1 3.6 1.27h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 9a16 16 0 0 0 6.29 6.29l.91-.91a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+        </svg>
+        Book Now
+      </a>
+      <button class="hamburger" id="hamburger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ===== HERO SECTION ===== -->
+  <section class="hero" id="home">
+    <div class="hero-overlay"></div>
+    <div class="hero-particles" id="heroParticles"></div>
+    <div class="hero-content">
+      <div class="hero-badge">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+        </svg>
+        Kanpur's Premier Event Decoration Service
+      </div>
+      <h1 class="hero-title">
+        Transforming Your
+        <span class="hero-highlight">Special Moments</span>
+        into Grand Celebrations
+      </h1>
+      <p class="hero-subtitle">Expert decoration services for weddings, birthdays, corporate events, and all special
+        occasions in Kanpur</p>
+      <div class="hero-cta">
+        <a href="#contact" class="btn-primary">
+          <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path
+              d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.44 2 2 0 0 1 3.6 1.27h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 9a16 16 0 0 0 6.29 6.29l.91-.91a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+          </svg>
+          Book Your Event Now
+        </a>
+        <a href="#services" class="btn-secondary">
+          View Our Services
+          <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path d="M5 12h14M12 5l7 7-7 7" />
+          </svg>
+        </a>
+      </div>
+    </div>
+
+    <div class="hero-stats">
+      <div class="stat-item">
+        <span class="stat-number" data-target="500">0</span><span class="stat-plus">+</span>
+        <span class="stat-label">Events</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <span class="stat-number" data-target="350">0</span><span class="stat-plus">+</span>
+        <span class="stat-label">Happy Clients</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <span class="stat-number" data-target="5">0</span><span class="stat-plus">+</span>
+        <span class="stat-label">Years</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <span class="stat-number" data-target="100">0</span><span class="stat-plus">%</span>
+        <span class="stat-label">Satisfaction</span>
+      </div>
+    </div>
+    <div class="hero-scroll-indicator">
+      <div class="scroll-mouse">
+        <div class="scroll-wheel"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT SECTION ===== -->
+  <section class="about" id="about">
+    <div class="about-top-banner">
+      <div class="container">
+        <h2 class="about-banner-title">Your Trusted <span class="highlight">Event Partner</span></h2>
+        <p class="about-banner-subtitle">Creating magical moments and unforgettable celebrations across Kanpur</p>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-content">
+          <h2 class="section-title">Welcome to RJ Events</h2>
+          <p class="about-text">At <strong>RJ Events</strong>, we believe every celebration deserves to be
+            extraordinary. Based in the heart of Kanpur, we specialize in transforming ordinary spaces into breathtaking
+            venues that leave lasting impressions.</p>
+          <p class="about-text">Led by <strong>Arun Singh Chauhan</strong>, our dedicated team brings creativity, passion, and
+            years of expertise to every event. From intimate family gatherings to grand celebrations, we handle every
+            detail with care and precision.</p>
+
+          <div class="mission-box">
+            <div class="mission-header">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="#D97706">
+                <path
+                  d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+              </svg>
+              <h3>Our Mission</h3>
+            </div>
+            <p>To create unforgettable experiences through exceptional decoration services that bring joy and elegance
+              to every celebration.</p>
+          </div>
+
+          <h3 class="why-choose-title">Why Choose RJ Events?</h3>
+          <div class="about-features">
+            <div class="feature-item">
+              <div class="feature-icon">
+                <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
+                  <path d="M20 6L9 17l-5-5" />
+                </svg>
+              </div>
+              <span>Premium quality decorations</span>
+            </div>
+            <div class="feature-item">
+              <div class="feature-icon">
+                <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
+                  <path d="M20 6L9 17l-5-5" />
+                </svg>
+              </div>
+              <span>On-time delivery guaranteed</span>
+            </div>
+            <div class="feature-item">
+              <div class="feature-icon">
+                <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
+                  <path d="M20 6L9 17l-5-5" />
+                </svg>
+              </div>
+              <span>Customized themes for every event</span>
+            </div>
+            <div class="feature-item">
+              <div class="feature-icon">
+                <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
+                  <path d="M20 6L9 17l-5-5" />
+                </svg>
+              </div>
+              <span>Affordable pricing with no compromise</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-images-collage reveal">
+          <div class="collage-item large">
+            <img src="https://images.unsplash.com/photo-1519167758481-83f550bb49b3?auto=format&fit=crop&q=80&w=800"
+              alt="Decoration 1">
+          </div>
+          <div class="collage-row">
+            <div class="collage-item small">
+              <img src="https://images.unsplash.com/photo-1469334031218-e382a71b716b?auto=format&fit=crop&q=80&w=500"
+                alt="Decoration 2">
+            </div>
+            <div class="collage-item small">
+              <img src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&q=80&w=500"
+                alt="Decoration 3">
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Why Choose Us Cards -->
+      <div class="why-us-cards">
+        <div class="why-card reveal">
+          <div class="why-icon">
+            <svg width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <circle cx="12" cy="8" r="6" />
+              <path d="M15.477 12.89L17 22l-5-3-5 3 1.523-9.11" />
+            </svg>
+          </div>
+          <h3>5+ Years Experience</h3>
+          <p>Trusted by hundreds of families in Kanpur</p>
+        </div>
+        <div class="why-card reveal">
+          <div class="why-icon">
+            <svg width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+              <circle cx="9" cy="7" r="4" />
+              <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+              <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+            </svg>
+          </div>
+          <h3>Expert Team</h3>
+          <p>Skilled professionals dedicated to perfection</p>
+        </div>
+        <div class="why-card reveal">
+          <div class="why-icon">
+            <svg width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path
+                d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" />
+            </svg>
+          </div>
+          <h3>Personalized Service</h3>
+          <p>Every event is unique and special to us</p>
+        </div>
+        <div class="why-card reveal">
+          <div class="why-icon">
+            <svg width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <polygon
+                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+            </svg>
+          </div>
+          <h3>Quality Props</h3>
+          <p>Premium decorations and props collection</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SERVICES SECTION ===== -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-badge">Our Services</div>
+        <h2 class="section-title">Complete Decoration <span class="highlight">Solutions</span></h2>
+        <p class="section-subtitle">Professional decoration services for every occasion and celebration</p>
+      </div>
+      <div class="services-grid">
+
+        <div class="service-card reveal">
+          <div class="service-img">
+            <img src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=600&q=80" alt="Wedding Decoration"
+              loading="lazy" />
+            <div class="service-icon-badge">
+              <svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                <path
+                  d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" />
+              </svg>
+            </div>
+          </div>
+          <div class="service-body">
+            <h3>Wedding Decoration</h3>
+            <p>Stunning mandap, floral arrangements, and complete wedding venue decoration that makes your special day
+              truly magical.</p>
+            <a href="#contact" class="service-link">Book This Service <svg width="16" height="16" fill="none"
+                stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <path d="M5 12h14M12 5l7 7-7 7" />
+              </svg></a>
+          </div>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="service-img">
+            <img src="https://images.unsplash.com/photo-1530103862676-de8c9debad1d?w=600&q=80" alt="Birthday Party"
+              loading="lazy" />
+            <div class="service-icon-badge">
+              <svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                <path
+                  d="M12 2a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5zm0 10c5.52 0 10 2.24 10 5v3H2v-3c0-2.76 4.48-5 10-5z" />
+              </svg>
+            </div>
+          </div>
+          <div class="service-body">
+            <h3>Birthday Party</h3>
+            <p>Creative and fun birthday decorations with balloons, themes, and personalized setups for all ages.</p>
+            <a href="#contact" class="service-link">Book This Service <svg width="16" height="16" fill="none"
+                stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <path d="M5 12h14M12 5l7 7-7 7" />
+              </svg></a>
+          </div>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="service-img">
+            <img src="https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?w=600&q=80" alt="Engagement Ceremony"
+              loading="lazy" />
+            <div class="service-icon-badge">
+              <svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z" />
+              </svg>
+            </div>
+          </div>
+          <div class="service-body">
+            <h3>Engagement Ceremony</h3>
+            <p>Romantic floral setups, elegant lighting, and beautiful ring ceremony decorations for your special
+              moment.</p>
+            <a href="#contact" class="service-link">Book This Service <svg width="16" height="16" fill="none"
+                stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <path d="M5 12h14M12 5l7 7-7 7" />
+              </svg></a>
+          </div>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="service-img">
+            <img src="https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=600&q=80" alt="Corporate Events"
+              loading="lazy" />
+            <div class="service-icon-badge">
+              <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <rect x="2" y="7" width="20" height="14" rx="2" ry="2" />
+                <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16" />
+              </svg>
+            </div>
+          </div>
+          <div class="service-body">
+            <h3>Corporate Events</h3>
+            <p>Professional and elegant setups for conferences, product launches, and corporate gatherings.</p>
+            <a href="#contact" class="service-link">Book This Service <svg width="16" height="16" fill="none"
+                stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <path d="M5 12h14M12 5l7 7-7 7" />
+              </svg></a>
+          </div>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="service-img">
+            <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&q=80" alt="Religious Functions"
+              loading="lazy" />
+            <div class="service-icon-badge">
+              <svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                <path
+                  d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zm4.24 16L12 15.45 7.77 18l1.12-4.81-3.73-3.23 4.92-.42L12 5l1.92 4.53 4.92.42-3.73 3.23L16.23 18z" />
+              </svg>
+            </div>
+          </div>
+          <div class="service-body">
+            <h3>Religious Functions</h3>
+            <p>Traditional and devotional decorations for puja, havan, janmashtami, navratri, and all religious
+              celebrations.</p>
+            <a href="#contact" class="service-link">Book This Service <svg width="16" height="16" fill="none"
+                stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <path d="M5 12h14M12 5l7 7-7 7" />
+              </svg></a>
+          </div>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="service-img">
+            <img src="https://images.unsplash.com/photo-1478146059778-26028b07395a?w=600&q=80"
+              alt="Theme-Based Decoration" loading="lazy" />
+            <div class="service-icon-badge">
+              <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+              </svg>
+            </div>
+          </div>
+          <div class="service-body">
+            <h3>Theme-Based Setup</h3>
+            <p>Creative themed decorations from Royal Indian to Modern Minimal — we bring your vision to life uniquely.
+            </p>
+            <a href="#contact" class="service-link">Book This Service <svg width="16" height="16" fill="none"
+                stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <path d="M5 12h14M12 5l7 7-7 7" />
+              </svg></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== GALLERY SECTION ===== -->
+  <section class="gallery" id="gallery">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-badge">Our Work</div>
+        <h2 class="section-title">Glimpses of Our <span class="highlight">Beautiful Events</span></h2>
+        <p class="section-subtitle">A showcase of our finest decorations and celebrations</p>
+      </div>
+      <div class="gallery-filters">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="wedding">Weddings</button>
+        <button class="filter-btn" data-filter="birthday">Birthdays</button>
+        <button class="filter-btn" data-filter="engagement">Engagement</button>
+        <button class="filter-btn" data-filter="religious">Religious</button>
+      </div>
+      <div class="gallery-grid" id="galleryGrid">
+        <div class="gallery-item reveal" data-category="wedding">
+          <img src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=500&q=75" alt="Wedding Decoration"
+            loading="lazy" />
+          <div class="gallery-overlay"><span>Wedding Decoration</span></div>
+        </div>
+        <div class="gallery-item reveal" data-category="birthday">
+          <img src="https://images.unsplash.com/photo-1530103862676-de8c9debad1d?w=500&q=75" alt="Birthday Party"
+            loading="lazy" />
+          <div class="gallery-overlay"><span>Birthday Party</span></div>
+        </div>
+        <div class="gallery-item reveal" data-category="religious">
+          <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=500&q=75" alt="Religious Function"
+            loading="lazy" />
+          <div class="gallery-overlay"><span>Religious Function</span></div>
+        </div>
+        <div class="gallery-item reveal" data-category="engagement">
+          <img src="https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?w=500&q=75" alt="Engagement Ceremony"
+            loading="lazy" />
+          <div class="gallery-overlay"><span>Engagement Ceremony</span></div>
+        </div>
+        <div class="gallery-item reveal" data-category="wedding">
+          <img src="https://images.unsplash.com/photo-1583939003579-730e3918a45a?w=500&q=75" alt="Wedding Stage"
+            loading="lazy" />
+          <div class="gallery-overlay"><span>Wedding Stage</span></div>
+        </div>
+        <div class="gallery-item reveal" data-category="birthday">
+          <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=500&q=75" alt="Birthday Decor"
+            loading="lazy" />
+          <div class="gallery-overlay"><span>Birthday Decor</span></div>
+        </div>
+        <div class="gallery-item reveal" data-category="wedding">
+          <img src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=500&q=75" alt="Floral Decoration"
+            loading="lazy" />
+          <div class="gallery-overlay"><span>Floral Decoration</span></div>
+        </div>
+        <div class="gallery-item reveal" data-category="religious">
+          <img src="https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?w=500&q=75" alt="Religious Ceremony"
+            loading="lazy" />
+          <div class="gallery-overlay"><span>Religious Ceremony</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TESTIMONIALS ===== -->
+  <section class="testimonials" id="testimonials">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-badge">Testimonials</div>
+        <h2 class="section-title">What Our <span class="highlight">Happy Clients</span> Say</h2>
+        <p class="section-subtitle">Real stories from families we've made happy across Kanpur</p>
+      </div>
+      <div class="testimonials-grid">
+
+        <div class="testimonial-card reveal">
+          <div class="testimonial-header">
+            <div class="stars">
+              <svg width="16" height="16" fill="#EAB308" viewBox="0 0 24 24">
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+              </svg>
+              <svg width="16" height="16" fill="#EAB308" viewBox="0 0 24 24">
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+              </svg>
+              <svg width="16" height="16" fill="#EAB308" viewBox="0 0 24 24">
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+              </svg>
+              <svg width="16" height="16" fill="#EAB308" viewBox="0 0 24 24">
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+              </svg>
+              <svg width="16" height="16" fill="#EAB308" viewBox="0 0 24 24">
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+              </svg>
+            </div>
+            <div class="quote-icon">"</div>
+          </div>
+          <p class="testimonial-text">"RJ Events made our wedding day absolutely magical! The decoration was
+            beyond our expectations. Every detail was perfect, from the mandap to the entrance. Highly recommended!"</p>
+          <div class="testimonial-footer">
+            <div>
+              <div class="client-name">Priya &amp; Rahul Sharma</div>
+              <div class="client-event">Wedding Decoration</div>
+            </div>
+            <div class="client-location">
+              <svg width="12" height="12" fill="none" stroke="#D97706" stroke-width="2" viewBox="0 0 24 24">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                <circle cx="12" cy="10" r="3" />
+              </svg>
+              Kanpur
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card reveal">
+          <div class="testimonial-header">
+            <div class="stars">
+              <svg width="16" height="16" fill="#EAB308" viewBox="0 0 24 24">
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+              </svg>
+              <svg width="16" height="16" fill="#EAB308" viewBox="0 0 24 24">
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+              </svg>
+              <svg width="16" height="16" fill="#EAB308" viewBox="0 0 24 24">
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+              </svg>
+              <svg width="16" height="16" fill="#EAB308" viewBox="0 0 24 24">
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+              </svg>
+              <svg width="16" height="16" fill="#EAB308" viewBox="0 0 24 24">
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+              </svg>
+            </div>
+            <div class="quote-icon">"</div>
+          </div>
+          <p class="testimonial-text">"They decorated my daughter's 8th birthday party beautifully! The princess theme
+            was executed perfectly. Arun ji and his team are very professional and creative. Thank you!"</p>
+          <div class="testimonial-footer">
+            <div>
+              <div class="client-name">Suresh Gupta</div>
+              <div class="client-event">Birthday Party</div>
+            </div>
+            <div class="client-location">
+              <svg width="12" height="12" fill="none" stroke="#D97706" stroke-width="2" viewBox="0 0 24 24">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                <circle cx="12" cy="10" r="3" />
+              </svg>
+              Kanpur
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card reveal">
+          <div class="testimonial-header">
+            <div class="stars">
+              <svg width="16" height="16" fill="#EAB308" viewBox="0 0 24 24">
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+              </svg>
+              <svg width="16" height="16" fill="#EAB308" viewBox="0 0 24 24">
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+              </svg>
+              <svg width="16" height="16" fill="#EAB308" viewBox="0 0 24 24">
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+              </svg>
+              <svg width="16" height="16" fill="#EAB308" viewBox="0 0 24 24">
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+              </svg>
+              <svg width="16" height="16" fill="#EAB308" viewBox="0 0 24 24">
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+              </svg>
+            </div>
+            <div class="quote-icon">"</div>
+          </div>
+          <p class="testimonial-text">"We hired RJ Events for our annual corporate function. The setup was
+            elegant and professional. They understood our requirements perfectly and delivered on time."</p>
+          <div class="testimonial-footer">
+            <div>
+              <div class="client-name">Meera Enterprises</div>
+              <div class="client-event">Corporate Event</div>
+            </div>
+            <div class="client-location">
+              <svg width="12" height="12" fill="none" stroke="#D97706" stroke-width="2" viewBox="0 0 24 24">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                <circle cx="12" cy="10" r="3" />
+              </svg>
+              Kanpur
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card reveal">
+          <div class="testimonial-header">
+            <div class="stars">
+              <svg width="16" height="16" fill="#EAB308" viewBox="0 0 24 24">
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+              </svg>
+              <svg width="16" height="16" fill="#EAB308" viewBox="0 0 24 24">
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+              </svg>
+              <svg width="16" height="16" fill="#EAB308" viewBox="0 0 24 24">
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+              </svg>
+              <svg width="16" height="16" fill="#EAB308" viewBox="0 0 24 24">
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+              </svg>
+              <svg width="16" height="16" fill="#EAB308" viewBox="0 0 24 24">
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+              </svg>
+            </div>
+            <div class="quote-icon">"</div>
+          </div>
+          <p class="testimonial-text">"Beautiful decoration for our engagement! The floral arrangements and lighting
+            were stunning. Arun ji was very cooperative and made sure everything was perfect. Worth every penny!"</p>
+          <div class="testimonial-footer">
+            <div>
+              <div class="client-name">Anjali Verma</div>
+              <div class="client-event">Engagement Ceremony</div>
+            </div>
+            <div class="client-location">
+              <svg width="12" height="12" fill="none" stroke="#D97706" stroke-width="2" viewBox="0 0 24 24">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                <circle cx="12" cy="10" r="3" />
+              </svg>
+              Kanpur
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CTA BANNER ===== -->
+  <section class="cta-banner reveal">
+    <div class="container">
+      <div class="cta-card">
+        <div class="cta-content">
+          <div class="cta-text">
+            <h2>Join 350+ Happy Customers</h2>
+            <p>Experience the RJ Events difference. We're committed to making your celebration perfect in every
+              way.</p>
+          </div>
+
+          <div class="cta-stats-row">
+            <div class="cta-stat-item">
+              <span class="cta-stat-num">500+</span>
+              <span class="cta-stat-label">Events Completed</span>
+            </div>
+            <div class="cta-stat-item">
+              <span class="cta-stat-num">100%</span>
+              <span class="cta-stat-label">Satisfaction Rate</span>
+            </div>
+            <div class="cta-stat-item">
+              <span class="cta-stat-num">5+</span>
+              <span class="cta-stat-label">Years Experience</span>
+            </div>
+          </div>
+
+          <div class="cta-action">
+            <a href="tel:+919026976760" class="btn-cta-white">
+              <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <path
+                  d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.44 2 2 0 0 1 3.6 1.27h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 9a16 16 0 0 0 6.29 6.29l.91-.91a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+              </svg>
+              Book Free Consultation
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT SECTION ===== -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-badge">Get In Touch</div>
+        <h2 class="section-title">Let's Plan Your <span class="highlight">Dream Event</span></h2>
+        <p class="section-subtitle">Contact us today for a free consultation and quote</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <div class="contact-card">
+            <div class="contact-icon">
+              <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <path
+                  d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.44 2 2 0 0 1 3.6 1.27h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 9a16 16 0 0 0 6.29 6.29l.91-.91a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+              </svg>
+            </div>
+            <div>
+              <h4>Call Us</h4>
+              <a href="tel:+919026976760" class="contact-value">+91 9026976760</a>
+              <p>Available 24/7 for your convenience</p>
+            </div>
+          </div>
+          <div class="contact-card">
+            <div class="contact-icon">
+              <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                <polyline points="22,6 12,13 2,6" />
+              </svg>
+            </div>
+            <div>
+              <h4>Email Us</h4>
+              <a href="mailto:ramjeevanevents1@gmail.com" class="contact-value">ramjeevanevents1@gmail.com</a>
+              <p>We'll respond within 24 hours</p>
+            </div>
+          </div>
+          <div class="contact-card">
+            <div class="contact-icon">
+              <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                <circle cx="12" cy="10" r="3" />
+              </svg>
+            </div>
+            <div>
+              <h4>Visit Us</h4>
+              <span class="contact-value">Kanpur, Uttar Pradesh</span>
+              <p>Serving all areas of Kanpur city</p>
+            </div>
+          </div>
+          <!-- Google Map Embed -->
+          <div class="map-embed">
+            <iframe
+              src="https://maps.app.goo.gl/8chFooxTfYa2CK3Q7"
+              width="100%" height="220" style="border:0; border-radius:12px;" allowfullscreen loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade" title="Kanpur Location Map">
+            </iframe>
+          </div>
+        </div>
+        <div class="contact-form-wrap">
+          <h3>Send Us a Message</h3>
+          <form id="contactForm" class="contact-form" novalidate>
+            <div class="form-group">
+              <label for="name">Your Name *</label>
+              <input type="text" id="name" name="name" placeholder="Enter your full name" required />
+              <span class="form-error" id="nameError">Please enter your name</span>
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone Number *</label>
+              <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required />
+              <span class="form-error" id="phoneError">Please enter a valid 10-digit number</span>
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" placeholder="Enter your email" />
+            </div>
+            <div class="form-group">
+              <label for="eventType">Event Type *</label>
+              <select id="eventType" name="eventType" required>
+                <option value="">Select event type</option>
+                <option value="wedding">Wedding Decoration</option>
+                <option value="birthday">Birthday Party</option>
+                <option value="engagement">Engagement Ceremony</option>
+                <option value="corporate">Corporate Event</option>
+                <option value="religious">Religious Function</option>
+                <option value="theme">Theme-Based Setup</option>
+                <option value="other">Other</option>
+              </select>
+              <span class="form-error" id="eventError">Please select an event type</span>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="4"
+                placeholder="Tell us about your event, date, venue, and any special requirements..."></textarea>
+            </div>
+            <button type="submit" class="btn-submit" id="submitBtn">
+              <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <line x1="22" y1="2" x2="11" y2="13" />
+                <polygon points="22 2 15 22 11 13 2 9 22 2" />
+              </svg>
+              Send Enquiry
+            </button>
+            <div class="form-success" id="formSuccess">
+              <svg width="24" height="24" fill="none" stroke="#22c55e" stroke-width="2" viewBox="0 0 24 24">
+                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
+                <polyline points="22 4 12 14.01 9 11.01" />
+              </svg>
+              Thank you! We'll contact you within 24 hours.
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="footer-logo-wrap">
+            <img src="logo11.png" alt="RJ Events Logo" class="footer-logo-img" />
+            <span class="footer-brand-name">RJ Events</span>
+          </div>
+
+          <p class="footer-desc">Making your special moments memorable with expert decoration services in Kanpur. Every
+            celebration deserves to be extraordinary.</p>
+          <div class="footer-trust">
+            <svg width="16" height="16" fill="#EAB308" viewBox="0 0 24 24">
+              <path
+                d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" />
+            </svg>
+            Trusted by 350+ Happy Clients
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Our Services</h4>
+          <ul>
+            <li><a href="#services">Wedding Decoration</a></li>
+            <li><a href="#services">Birthday Party</a></li>
+            <li><a href="#services">Engagement Ceremony</a></li>
+            <li><a href="#services">Corporate Events</a></li>
+            <li><a href="#services">Religious Functions</a></li>
+            <li><a href="#services">Theme-Based Setup</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact Us</h4>
+          <div class="footer-contact-item">
+            <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path
+                d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.44 2 2 0 0 1 3.6 1.27h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 9a16 16 0 0 0 6.29 6.29l.91-.91a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+            </svg>
+            <a href="tel:+919026976760">+91 9026976760</a>
+          </div>
+          <div class="footer-contact-item">
+            <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+              <polyline points="22,6 12,13 2,6" />
+            </svg>
+            <a href="mailto:ramjeevanevents1@gmail.com">ramjeevanevents1@gmail.com</a>
+          </div>
+          <div class="footer-contact-item">
+            <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+              <circle cx="12" cy="10" r="3" />
+            </svg>
+            <span>Kanpur, Uttar Pradesh, India</span>
+          </div>
+          <div class="footer-social">
+            <h5>Follow Us</h5>
+            <div class="social-links">
+              <a href="#" aria-label="Facebook" class="social-link">
+                <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
+                </svg>
+              </a>
+              <a href="#" aria-label="Instagram" class="social-link">
+                <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                  <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+                  <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                  <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+                </svg>
+              </a>
+              <a href="#" aria-label="YouTube" class="social-link">
+                <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                  <path
+                    d="M22.54 6.42a2.78 2.78 0 0 0-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46a2.78 2.78 0 0 0-1.95 1.96A29 29 0 0 0 1 12a29 29 0 0 0 .46 5.58A2.78 2.78 0 0 0 3.41 19.54C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 0 0 1.95-1.96A29 29 0 0 0 23 12a29 29 0 0 0-.46-5.58z" />
+                  <polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02" />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>© 2026 RJ Events. All rights reserved. Designed with <svg width="14" height="14" fill="#ef4444"
+            viewBox="0 0 24 24">
+            <path
+              d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" />
+          </svg> in Kanpur</p>
+        <p>Made in India 🇮🇳</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===== SCROLL TO TOP ===== -->
+  <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">
+    <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
+      <path d="M18 15l-6-6-6 6" />
+    </svg>
+  </button>
+
+  <!-- ===== WHATSAPP FLOAT ===== -->
+  <a href="https://wa.me/919026976760?text=Hello%20RJ%20Events%2C%20I%20want%20to%20book%20an%20event%20decoration."
+    class="whatsapp-float" target="_blank" rel="noopener" aria-label="WhatsApp Chat">
+    <svg width="28" height="28" fill="currentColor" viewBox="0 0 24 24">
+      <path
+        d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z" />
+    </svg>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

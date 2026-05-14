@@ -1,0 +1,16 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Open Anandeshwar Events",
+      "type": "chrome",
+      "request": "launch",
+      "url": "http://localhost:8000",
+      "webRoot": "${workspaceFolder}",
+      "preLaunchTask": "Run Anandeshwar Events App",
+      "presentation": {
+        "hidden": false
+      }
+    }
+  ]
+}
